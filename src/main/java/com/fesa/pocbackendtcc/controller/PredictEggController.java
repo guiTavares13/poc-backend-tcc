@@ -11,7 +11,7 @@ import com.fesa.pocbackendtcc.model.PredictEgg;
 import com.fesa.pocbackendtcc.service.LinearRegression;
 
 @RestController
-@RequestMapping(value="/predictEgg")
+@RequestMapping(value="/predictEggs")
 public class PredictEggController {
 	
 	
