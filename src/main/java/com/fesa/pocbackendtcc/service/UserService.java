@@ -61,4 +61,9 @@ public class UserService {
 	}
 	
 	
+	public Optional<User> login(String email, String password) {
+        return repo.findByEmailAndPassword(email, password);
+    }
+	
+	
 }

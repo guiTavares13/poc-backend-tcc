@@ -2,6 +2,7 @@ package com.fesa.pocbackendtcc.dto;
 
 import java.io.Serializable;
 
+
 import com.fesa.pocbackendtcc.model.User;
 
 public class UserDTO implements Serializable {
